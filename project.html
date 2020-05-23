@@ -43,6 +43,13 @@ header {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+.cons{
+  background-image: url('w3css.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+  }
 .pbutton{
   background-color: ORANGE;
   border: none;
@@ -55,6 +62,22 @@ header {
   margin: 4px 2px;
   cursor: pointer;
 }
+
+div.wrapper {
+		position: relative;
+		clear: both;
+		width: 90%;
+		}
+div.left {
+		float: left;
+		width: 45%;
+        }	
+div.right {
+		float: right;
+		width: 45%;
+		}
+		
+
 </style>
 <body>
 <header width="100%"><img src="C:\Users\`\Desktop\obese\no.jpg" style="height:80px">NOVI-HTML Page Builder Inside</header>
@@ -86,9 +109,20 @@ header {
 	</div>
 </div>
 
-
-
-
+<div class="wrapper"style="margin-top:60px; margin-left:100px; margin-right:30px;margin-bottom:30px">
+ <div class="left" style="padding:10px">
+       <p><span style="font-family: Arial, Helvetica, sans-serif;font-size:25px;color:black;">ABOUT US</span></p>
+       <p><span style="font-family: Arial, Helvetica, sans-serif;font-size:15px;color:black;">
+	   <b>OUR CONSTRUCTION COMPANY WAS FOUNDED 10 YEARS
+       AGO. AT THE VERY PEAK OF THE BUILDING FRENZY IN THE US.</p></b>
+       <p>Construction is a general term meaning the art and science to form objects, systems, or organizations, and comes from Latin constructio and Old French construction. 
+       To construct is the verb:the act of building, and the noun is construction.</p>
+  <p><input type="button" class="pbutton" value="CONTACTS"></p>
+</div>
+<div class="right"style="margin-top:30px;margin-bottom:30px">
+   <img src="const.png" style="height:300px; width:60%;align:LEFT"></div>
+</div>
+</div>
 
 </div>
 </body>
