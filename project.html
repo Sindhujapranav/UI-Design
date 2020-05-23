@@ -13,7 +13,7 @@ div{
    width:95%;
    margin-left:30px;
    }
-header {
+header, footer{
   background: rgb(0,116,255);
   background: linear-gradient(90deg, rgba(0,116,255,1) 74%, rgba(0,181,255,1) 79%);
   padding: 30px;
@@ -24,6 +24,32 @@ header {
 .oneline{
     margin-top:20px;
     display:inline-block
+}
+.h1{
+     width:100%;
+	 height:250px;
+	 margin-top:450px;
+	 background-image: url("fields.jpg");
+	 background-size:cover;
+	 background-repeat:no-repeat;
+	 background-position:center;
+}
+.column {
+  float: left;
+  width: 15%;
+  padding:30px;
+  height: 250px;
+}
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 250px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .himage{
      width:95%;
@@ -43,13 +69,6 @@ header {
   transform: translate(-50%, -50%);
   color: white;
 }
-
-.cons{
-  background-image: url('w3css.gif');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: right;
-  }
 .pbutton{
   background-color: ORANGE;
   border: none;
@@ -94,7 +113,7 @@ div.right {
 </div>
 
 <div class="himage">
- <div class="oneline"><img src="logo.jpg" style="width:35px;height:30px; margin-top:20px;margin-left:90px;margin-right:20px;">
+  <div class="oneline"><img src="logo.jpg" style="width:35px;height:30px; margin-top:20px;margin-left:90px;margin-right:20px;">
   <span style="font-family: Arial, Helvetica, sans-serif;font-size:20px;color:white"> CONSTRUCTO</span>
   <span style="font-family: Arial, Helvetica, sans-serif;font-size:12px;color:orange;;margin-left:390px;margin-right:20px;">HOME</span>
   <span style="font-family: Arial, Helvetica, sans-serif;font-size:12px;color:white;margin-right:20px;">ABOUT</span>
@@ -110,21 +129,80 @@ div.right {
 </div>
 
 <div class="wrapper"style="margin-top:60px; margin-left:100px; margin-right:30px;margin-bottom:30px">
- <div class="left" style="padding:10px">
+    <div class="left" style="padding:10px">
        <p><span style="font-family: Arial, Helvetica, sans-serif;font-size:25px;color:black;">ABOUT US</span></p>
        <p><span style="font-family: Arial, Helvetica, sans-serif;font-size:15px;color:black;">
 	   <b>OUR CONSTRUCTION COMPANY WAS FOUNDED 10 YEARS
        AGO. AT THE VERY PEAK OF THE BUILDING FRENZY IN THE US.</p></b>
        <p>Construction is a general term meaning the art and science to form objects, systems, or organizations, and comes from Latin constructio and Old French construction. 
        To construct is the verb:the act of building, and the noun is construction.</p>
-  <p><input type="button" class="pbutton" value="CONTACTS"></p>
-</div>
-<div class="right"style="margin-top:30px;margin-bottom:30px">
-   <img src="const.png" style="height:300px; width:60%;align:LEFT"></div>
-</div>
+      <p><input type="button" class="pbutton" value="CONTACTS"></p>
+    </div>
+    <div class="right"style="margin-top:30px;margin-bottom:30px">
+       <img src="const.png" style="height:300px; width:60%;align:LEFT"></div>
+    </div>
 </div>
 
+
+<div class="h1" align="center">
+ <div class="row">
+  <div class="column" style="color:orange; margin-left:550px margin-top:150px">
+    <h1 style="color:orange"><b>250<b></h1>
+    <p style="font-size:15px;color:white">PROJECTS COMPLETED</p>
+  </div>
+  <div class="column">
+    <h1 style="color:orange"><b>302</b></h1>
+    <p style="color:white">STAFF MEMBERS</p>
+  </div>
+  <div class="column">
+    <h1 style="color:orange"><b>15</b></h1>
+    <p style="color:white">MILLION MAN-HOURS</p>
+  </div>
+  <div class="column">
+    <h1 style="color:orange"><b>99</b></h1>
+    <p style="color:white">AWARDS WON</p>
+ </div>
 </div>
+  
+<hr style="width:5%;height:2px;border-width:0;color:gray;background-color:orange">
+<div><h3><b>OUR SERVICES</b></h3></div>
+
+<div class="row">
+  <div class="column1">
+    <img src="1.png"align="left"><p>PRE CONSTRUCTION SERVICES</p>
+    <p align="justify" style="margin-left:50px">Pre-construction services are used in planning a construction project before the actual construction begins.</p>
+  </div>
+  <div class="column1">
+    <img src="2.png"align="left" style="height:50px;"><p>GENERAL CONTRACTING</p>
+    <p align="justify" style="margin-left:50px">Pre-construction services are used in planning a construction project before the actual construction begins. 
+	These services are often referred to as preconstruction or precon.</p>
+  </div>
+  <div class="column1">
+    <img src="3.png"align="left"><p>CONSTRUCTION SERVICES</p>
+    <p align="justify" style="margin-left:50px">Pre-construction services are used in planning a construction project before the actual construction begins. 
+	These services are often referred to as preconstruction or precon.</p>
+	</div>
+  <div class="column1" style="margin-top:-100px">
+    <img src="4.png"align="left"><p>CONSTRUCTION MANAGEMENT</p>
+    <p align="justify" style="margin-left:50px">Pre-construction services are used in planning a construction project before the actual construction begins.</p>
+  </div>
+  <div class="column1"style="margin-top:-100px">
+    <img src="5.png"align="left" style="height:50px;"><p><b>BUILDING INFORMATION MODELLING(BIM)</b></p>
+    <p align="justify" style="margin-left:50px">Pre-construction services are used in planning a construction project before the actual construction begins. 
+	These services are often referred to as preconstruction or precon.</p>
+  </div>
+  <div class="column1"style="margin-top:-100px">
+    <img src="6.png"align="left"><p>DESIGN BUILD</p>
+    <p align="justify" style="margin-left:50px">Pre-construction services are used in planning a construction project before the actual construction begins. 
+	These services are often referred to as preconstruction or precon.</p>
+  </div>
+
+
+
+</div>
+<footer class="footer">
+  <p>NOVI-HTML Page Builder Inside
+  <a href="novi@example.com">hege@example.com</a></p></footer>
 </body>
 </html>
 
