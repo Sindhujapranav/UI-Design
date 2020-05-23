@@ -9,6 +9,10 @@ body{
    width:100%;
    background-color:whitesmoke;
    }
+div{
+   width:95%;
+   margin-left:30px;
+   }
 header {
   background: rgb(0,116,255);
   background: linear-gradient(90deg, rgba(0,116,255,1) 74%, rgba(0,181,255,1) 79%);
@@ -21,26 +25,65 @@ header {
     margin-top:20px;
     display:inline-block
 }
-.himage {
-  background-image:url("C:\Users\`\Desktop\obese\bri.jpg");
-  background-repeat:no-repeat;
-  height: 500px;
+.himage{
+     width:95%;
+	 height:600px;
+	 background-image: url("bri.jpg");
+	 background-size:cover;
+	 background-repeat:no-repeat;
+	 background-position:center;
+}
+
+.htext {
+  text-align: center;
+  margin-top:250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.pbutton{
+  background-color: ORANGE;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 </style>
 <body>
 <header width="100%"><img src="C:\Users\`\Desktop\obese\no.jpg" style="height:80px">NOVI-HTML Page Builder Inside</header>
 <div>
 <div class="oneline" style="background-color:grey; color:white">
-<img src="C:\Users\`\Desktop\obese\add.png" style="width:20px;height:20px;margin-left:90px;">Address:4578, Monarama Road, Chennai-001
-<img src="C:\Users\`\Desktop\obese\phones.png" style="width=:20px; height:20px;margin-left:30px;"> 123-0045; 123-0046
-<img src="C:\Users\`\Desktop\obese\facebook.png" style="width=:20px; height:20px;margin-left:500px;">
+<img src="C:\Users\`\Desktop\obese\add.png" style="width:20px;height:20px;margin-left:90px;">
+<span style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;">Address:4578, Monarama Road, Chennai-001
+<img src="C:\Users\`\Desktop\obese\phones.png" style="width=:20px; height:20px;margin-left:30px;"> 123-0045; 123-0046</span>
+<img src="C:\Users\`\Desktop\obese\facebook.png" style="width=:20px; height:20px;margin-left:300px;">
 <img src="C:\Users\`\Desktop\obese\linkedin.png" style="width=:20px; height:20px;margin-left:30px;">
 <img src="C:\Users\`\Desktop\obese\github.png" style="width=:20px; height:20px;margin-left:30px;">
 <img src="C:\Users\`\Desktop\obese\logotype.png" style="width=:20px; height:20px;margin-left:30px;">
 <img src="C:\Users\`\Desktop\obese\g+.png" style="width=:20px; height:20px;margin-left:30px;">
 </div>
-<div class="himage">
 
+<div class="himage">
+ <div class="oneline"><img src="logo.jpg" style="width:35px;height:30px; margin-top:20px;margin-left:90px;margin-right:20px;">
+  <span style="font-family: Arial, Helvetica, sans-serif;font-size:20px;color:white"> CONSTRUCTO</span>
+  <span style="font-family: Arial, Helvetica, sans-serif;font-size:12px;color:orange;;margin-left:390px;margin-right:20px;">HOME</span>
+  <span style="font-family: Arial, Helvetica, sans-serif;font-size:12px;color:white;margin-right:20px;">ABOUT</span>
+  <span style="font-family: Arial, Helvetica, sans-serif;font-size:12px;color:white;margin-right:20px;">SERVICES</span>
+  <span style="font-family: Arial, Helvetica, sans-serif;font-size:12px;color:white;margin-right:20px;">TESTIMONIALS</span>
+  <span style="font-family: Arial, Helvetica, sans-serif;font-size:12px;color:white;margin-right:20px;">CONTACTS</span>
+ </div>
+    <div class="htext">
+      <p><span style="font-family: Arial, Helvetica, sans-serif;font-size:90px;color:white;">CONSTRUCTION</span></p>
+	  <p><span style="font-family: Arial, Helvetica, sans-serif;font-size:19px;color:white;">SEE HOW A TEN STORIES TOWER IS BEING BUILT, IN A TIME-LAPSE!</span></p>
+	  <p><input type="button" class="pbutton" value="CONTACTS">
+	</div>
 </div>
 
 
