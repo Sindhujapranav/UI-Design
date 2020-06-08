@@ -1,0 +1,97 @@
+body{
+background-color:whitesmoke;
+height:100%;
+width:100%;
+}
+.oneline{
+    display:inline;
+}
+.i1{
+	width:80px;
+	height:80px;
+}
+.i2{
+	width:100px;
+	height:100px;
+}
+.tit{
+	font-size:70px;
+    font-family:'Libre Baskerville',serif;
+    text-align:center;
+    font-weight:bolder;
+	margin-top:0px;
+}
+.content{
+    font-size: 15px;
+    text-align: start;
+}
+
+.img1{
+	width:250px;
+    height:150px;
+	font-family:Teko;
+	font-size:20px;
+	background-color:lightgray;
+	margin-top:-160px;
+	float:left;
+}
+
+.img2{
+	width:240px;
+    height:150px;
+    font-family:Teko;
+	font-size:20px;
+    text-align:left-side;
+    background-color:lightgray;
+	float:right;
+    margin-top:-160px;
+    margin-left:1060px;
+}
+.left{
+    width: 70%;
+    height: 100%;
+    float:left ;
+    margin-top: -1px;
+    }
+.right{
+    width: 30%;
+    height: 100%;
+    float: right;
+    margin-top: -1px;           
+    }
+.top{
+    width: 100%;
+    float: inline-start;
+    height: 50%;
+}
+.bottom{
+    width: 100%;
+    float: inline-end;
+    height: 50%;
+}
+.topleft{
+    height: 100%;
+    width: 50%;
+    float: left;
+                
+}
+.topright{
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+.bottomleft{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.bottomright{
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+.blef {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
