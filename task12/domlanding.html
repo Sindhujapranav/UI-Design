@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<style type="text/css">
+</style>
+<body id="bdy">
+<script type="text/javascript">
+var body=document.getElementById("bdy")
+var d1=document.createElement("di")
+
+var div1=document.createElement("div");
+div1.setAttribute("style","height:40px;width:100%;background-color:lightgrey;border-radius:12px 12px 0px 0px;");
+body.appendChild(div1);
+
+var i1=document.createElement("img");
+    i1.setAttribute("src","https://st2.depositphotos.com/3730475/7271/i/950/depositphotos_72716165-stock-photo-set-of-round-empty-glossy.jpg")
+    i1.setAttribute("style","height:30px;width:60px;margin-left:20px;margin-top:12px")
+div1.appendChild(i1);
+
+var tbox1=document.createElement("textarea");
+    tbox1.innerHTML="Search or Enter the Website name";
+	tbox1.setAttribute("style","font-size:14px;height:20px;width:55%;position:relative;top:-6px;margin-left:230px");
+div1.appendChild(tbox1);
+	
+var div2=document.createElement("div");
+    div2.setAttribute("style",";width: 100%;background:rgba(0, 0, 255, 0.671);height:550px;margin-top: 0px;padding-top:50px")
+body.appendChild(div2);
+	
+	var l1=document.createElement("padding");
+		l1.innerHTML="Landing";
+		l1.setAttribute("style","margin-left:40px;color:white;font-size:40px");
+	div2.appendChild(l1);
+		
+	var l2=document.createElement("padding");
+		l2.innerHTML="Home";
+		l2.setAttribute("style","margin-left:650px;color:white;font-size:20px");
+	div2.appendChild(l2);
+		
+	var l3=document.createElement("padding");
+		l3.innerHTML="Features";
+		l3.setAttribute("style","margin-left:25px;color:white;font-size:20px");
+	div2.appendChild(l3);
+		
+	var l4=document.createElement("padding");
+		l4.innerHTML="Reviews";
+		l4.setAttribute("style","margin-left:25px;color:white;font-size:20px");
+	div2.appendChild(l4);
+		
+	var l5=document.createElement("padding");
+		l5.innerHTML="Pricing";
+		l5.setAttribute("style","margin-left:25px;color:white;font-size:20px");
+	div2.appendChild(l5);
+	
+	var l6=document.createElement("padding");
+		l6.innerHTML="FAQ";
+		l6.setAttribute("style","margin-left:25px;color:white;font-size:20px");
+	div2.appendChild(l6);
+		
+	var l7=document.createElement("padding");
+		l7.innerHTML="Get Started";
+		l7.setAttribute("style","margin-left:25px;color:white;font-size:20px;border:1px solid white");
+	div2.appendChild(l7);
+document.body.appendChild(div2);
+	
+var div3=document.createElement("div");
+    div3.setAttribute("style","color:white;font-size:50px;line-height:1;margin-top:-530px;margin-left:50px");
+    div2.appendChild(div3);
+		
+    var h1=document.createElement("p");
+		h1.innerHTML=" Fly makes you<br>faster";
+		h1.style.color="white";
+		h1.style.top="70px"
+	    h1.style.fontSize="70px";
+    div3.appendChild(h1);
+	
+	var p = document.createElement("p");
+	    p.innerHTML="New free template by <u>uicookies.com.</u> For more <br>template visit the site. Lorem ipsum dolor sit<br> amet consecteur adipisicing elit."
+	    p.setAttribute("style","margin-left:10px");
+		p.style.color="white";
+		p.style.wordSpacing="15px";
+		p.style.letterSpacing="2px";
+		p.style.fontSize="25px";
+	div3.appendChild(p);
+	
+	var but=document.createElement("button");
+        but.setAttribute("style","margin-left:100px;margin-top:10px;background-color:green;text-align:center;font-size:20px;color:white;border-radius:20px;width:250px;height:50px;");
+        but.innerHTML="See Pricing"
+    div3.appendChild(but);
+	
+document.body.appendChild(div3);
+
+    var signup=document.createElement("div");
+		signup.style.width="33%";
+		signup.style.height="450px";
+		signup.style.position="absolute";
+		signup.style.left="890px";
+		signup.style.backgroundColor="white";
+	div3.appendChild(signup);
+	signup.style.top="150px";
+	
+        var h=document.createElement("h");
+		h.innerHTML="Sign up for free";
+		h.setAttribute("style","font-size:30px;align:center;margin-left:100px")
+		h.style.color="black";	
+		signup.appendChild(h)
+
+		var t1=document.createElement("input");
+		t1.setAttribute("placeholder","Full Name");
+		t1.setAttribute("style","background:whitesmoke;width:65%;border:0;margin:0 0 15px ;padding:17px;font-size:14px;margin-left:65px");
+		signup.appendChild(t1);
+
+		var t2=document.createElement("input");
+		t2.setAttribute("placeholder","Email");
+		t2.setAttribute("style","background:whitesmoke;width:65%;border:0;margin:0 0 15px;padding:17px;font-size:14px;margin-left:65px");
+		signup.appendChild(t2);
+
+		var t3=document.createElement("input");
+		t3.setAttribute("placeholder","Email");
+		t3.setAttribute("style","background:whitesmoke;width:65%;border:0;margin:0 0 15px;padding:17px;font-size:14px;margin-left:65px");
+		signup.appendChild(t3);
+
+		var t4=document.createElement("input");
+		t4.setAttribute("placeholder","Type");
+		t4.setAttribute("style","background:whitesmoke;width:65%;border:0;margin:0 0 15px;padding:17px;font-size:14px;margin-left:65px");
+		signup.appendChild(t4);
+		
+		var submit=document.createElement("button");
+		submit.innerHTML="<b>Register</b>";
+		submit.setAttribute("style","background:green;width:70%;border-radius:30px;padding:10px;color:white;font-size:14px;margin-left:65px");
+		signup.appendChild(submit);
+	signup.appendChild(signup);
+	
+	var t3= document.createElement('div');
+        t3.style.width = '100%';
+        t3.style.height = '270px';
+        t3.style.borderRadius='2px';
+        t3.style.marginLeft='260px';
+       t3.style.backgroundColor='red';
+       t3.style.marginTop='-60px';
+       t3.style.clipPath='polygon(0 19%,100% 0vw,100% 100%,0 100%)';
+    t3.appendChild(f1);
+	t3.appendChild(f2);
+	var f1=document.createElement('div');
+      f1.style.textAlign='center';
+      f1.style.marginTop='-20px';
+      f1.style.fontFamily='Verdana';
+      f1.style.padding='160px';
+      f1.style.color='gray';
+      f1.style.fontSize='10px';
+      f1.innerHTML='FEATURES';
+      var f2=document.createElement('div');
+      f2.style.textAlign='center';
+      f2.style.marginTop='-155px';
+      f2.style.fontFamily='Verdana';
+      f2.style.color='gray';
+      f2.style.fontSize='20px';
+      f2.innerHTML='App Features';
+	  body.appendChild(t3)
+
+</script>
+</body>
+</html>
